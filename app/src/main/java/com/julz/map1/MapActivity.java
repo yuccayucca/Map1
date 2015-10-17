@@ -24,7 +24,7 @@ import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
+
 
 import java.util.List;
 
@@ -89,11 +89,6 @@ public class MapActivity extends FragmentActivity implements LocationListener{
         mMap.setMyLocationEnabled(true);
         mMap.setTrafficEnabled(true);
 
-       /* Uri gmmIntentUri = Uri.parse("geo:0,0?q=restaurants");
-        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-        mapIntent.setPackage("com.google.android.apps.maps");
-        startActivity(mapIntent);
-*/
     }
 
     @Override
